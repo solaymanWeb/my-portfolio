@@ -1,0 +1,26 @@
+.header-container{
+padding-top: 30px;
+}
+
+.header-section a{
+    text-decoration: none;
+}
+.right-li a{
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    margin-left: 10px;
+}
+.right-li a:hover{
+    color: orangered;
+}
+.main-logo{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 30px;
+
+
+}
+.hambargar-btn{
+    background-color: white;
+}

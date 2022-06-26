@@ -1,0 +1,47 @@
+.contact-section{
+    background-image: url('../../Assest/footerbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+.form-title{
+    color: white;
+}
+.input-title{
+    display: flex;
+    font-size: 20px;
+    color: white;
+}
+.contact-info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    vertical-align: middle;
+    height: 100%;
+}
+.contact-info a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.contact-info a:hover {
+     color:lightsalmon;
+     font-size: 21px;
+     transition: all .4s;
+     -webkit-transition: all .4s;
+     -moz-transition: all .4s;
+     -ms-transition: all .4s;
+     -o-transition: all .4s;
+}
+.footer-bottom{
+
+    color:white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  
+}

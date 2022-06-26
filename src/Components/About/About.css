@@ -1,0 +1,13 @@
+.text-orangered{
+    color: orangered;
+}
+.my-self{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .about-section{
+    background-image: url(../../Assest/purpleblur.png);
+    background-repeat: no-repeat;
+} */
+
