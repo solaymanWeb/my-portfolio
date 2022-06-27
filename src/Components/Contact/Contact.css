@@ -14,7 +14,11 @@
     color: white;
 }
 .contact-info {
-    color: white;
+    background-image: url("../../Assest/codding.gif");
+    background-repeat: no-repeat;
+   background-size: cover;
+   padding: 10px;
+    /* color: white; */
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -25,12 +29,13 @@
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    /* color: white; */
+    color: black;
     margin-bottom: 10px;
     display: inline-block;
 }
 .contact-info a:hover {
-     color:lightsalmon;
+     color:blue;
      font-size: 21px;
      transition: all .4s;
      -webkit-transition: all .4s;
