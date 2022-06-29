@@ -11,12 +11,11 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div>
+        <div className='all-component-wraper'>
             <div className='header-and-banner'>
             <Header></Header>
             <Banner></Banner>
             </div>
-            <BannerFooter></BannerFooter>
             <About></About>
             <Projects></Projects>
             <Contact></Contact>

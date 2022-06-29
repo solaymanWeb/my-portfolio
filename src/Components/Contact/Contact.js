@@ -53,7 +53,7 @@ const Contact = () => {
                     </div>
                     </Col>
                     <Col md={6}>
-                    <div>
+                    <div className='email-area'>
                     <Form ref={form} onSubmit={sendEmail}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label className='input-title'>Your Name</Form.Label>

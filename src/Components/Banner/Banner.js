@@ -8,12 +8,12 @@ import resume from "../../Assest/solayman_resume.pdf";
 
 const Banner = () => {
     return (
-        <section className='banner-section'>
+        <section className='banner-section '>
             <Container>
                 <Row>
                     <Col md={6}>
-                        <div className='banner-left px-md-5'>
-                            <div>
+                        <div className='banner-left h-sm-auto px-md-5 '>
+                            <div className='all-text'>
                                 <h3><strong className='banner-name-title'>Hello, I'm <span>Solayman</span></strong></h3>
                                 <strong className='banner-name-title'>Front-end Web Developer</strong>
 

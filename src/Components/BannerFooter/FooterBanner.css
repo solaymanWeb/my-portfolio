@@ -1,5 +1,10 @@
 .banner-footer{
-    margin-top: -94px;
+    /* margin-top: -94px; */
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     
 }
 .banner-footer img{

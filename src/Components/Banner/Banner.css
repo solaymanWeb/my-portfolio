@@ -1,5 +1,18 @@
 .banner-section{
     text-align: left;
+    position: relative;
+}
+
+.banner-section::before{
+position: absolute;
+content: " ";
+background-image: url('../../Assest/bannerFooter.png');
+background-repeat: no-repeat;
+background-size: cover;
+top: 85%;
+bottom: 0;
+left: 0;
+right: 0;
 }
 .banner-name-title{
     font-size: 30px;
@@ -14,8 +27,8 @@
     display: flex;
     /* justify-content: center; */
     align-items: center;
-   
 }
+
 .banner-right{
     height: 500px;
     display: flex;
@@ -86,4 +99,25 @@
    -moz-transition: 1s ease-out;
    -ms-transition: 1s ease-out;
    -o-transition: 1s ease-out;
+}
+
+@media (max-width: 575.98px) {
+    .banner-left{
+        height:auto;
+    }
+    .banner-name-title {
+        font-size: 20px;
+        color: white;
+    }
+    .banner-section{
+        padding-top:30px;
+    }
+    .img-container img {
+        width: 300px;
+        height: 300px;
+    }
+    .email-area{
+        padding-top: 50px;
+    }
+    
 }
