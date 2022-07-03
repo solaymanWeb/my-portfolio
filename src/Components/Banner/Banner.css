@@ -133,8 +133,8 @@ right: 0;
 }
 .glass{
     position: absolute;
-    left: 40%;
-    top: 58%; 
+    left: 20%;
+    top: 80%;
 }
 
 #glass-id img{
@@ -188,7 +188,12 @@ right: 0;
         top: 24%;
     }
     .triangle {
-        top: 213px;
+        top: 258px;
         left: 34px;
+    }
+    .glass {
+        position: absolute;
+        left: 56%;
+        top: 88%;
     }
 }
