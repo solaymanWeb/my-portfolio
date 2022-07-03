@@ -1,5 +1,5 @@
 .contact-section{
-    background-image: url('../../Assest/footerbg.png');
+    background-image: url('../../Assest/background2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -40,11 +40,4 @@
      -moz-transition: all .4s;
      -ms-transition: all .4s;
      -o-transition: all .4s;
-}
-.footer-bottom{
-
-    color:white;
-    padding-top: 50px;
-    padding-bottom: 30px;
-  
 }

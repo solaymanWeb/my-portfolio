@@ -40,6 +40,7 @@ right: 0;
 }
 .type-my-skill{
     color: orangered;
+    font-weight: bold;
     margin-right: 12px;
     
 }
@@ -49,18 +50,17 @@ right: 0;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
-    background-size: 200% auto;
-    color: white;
     border-radius: 10px;
-    display: block;
-    border: none;
-    font-weight: 600;
+    font-weight: 700;
     box-shadow: 0px 0px 14px -7px #f09819;
     background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
     cursor: pointer;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+  }
+  .all-text{
+    font-weight: bold;
   }
   
   .button-87:hover {
@@ -100,6 +100,70 @@ right: 0;
    -ms-transition: 1s ease-out;
    -o-transition: 1s ease-out;
 }
+.banner-container{
+    position: relative;
+}
+
+.social-link{
+    display: flex;
+    padding-left: 0px;
+}
+.social-link li{
+    list-style: none;
+    margin-right: 15px;
+}
+.social-link a{
+    font-size: 30px;
+    color: rgb(255, 255, 2);
+    text-decoration: none;
+}
+.social-link a:hover{
+  color: white;
+}
+.triangle{
+    position:absolute;
+    top: 84px;
+    left: 44px;
+}
+.circle-shap{
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 8%;
+}
+.glass{
+    position: absolute;
+    left: 40%;
+    top: 58%; 
+}
+
+#glass-id img{
+    position: relative;
+    animation: glass 3s linear infinite alternate ;
+    -webkit-animation: glass 3s linear infinite alternate ;
+}
+@keyframes glass{
+    0%{left: 20px;}
+    100%{left: 70px;}
+}
+#bottom-circle-id img{
+    position: relative;
+    animation: lapMove 3s linear infinite alternate ;
+    -webkit-animation: lapMove 3s linear infinite alternate ;
+}
+@keyframes lapMove{
+    0%{top: 0px;}
+    100%{top: 100px;}
+}
+#traiangle-id img{
+    position: relative;
+    animation: traiangleMove 3s linear infinite alternate;
+    -webkit-animation: traiangleMove 3s linear infinite alternate;
+}
+@keyframes traiangleMove{
+    0%{left: 0px;}
+    100%{left: 100px;}
+}
 
 @media (max-width: 575.98px) {
     .banner-left{
@@ -119,5 +183,12 @@ right: 0;
     .email-area{
         padding-top: 50px;
     }
-    
+    .circle-shap {
+        left: 78%;
+        top: 24%;
+    }
+    .triangle {
+        top: 213px;
+        left: 34px;
+    }
 }

@@ -40,7 +40,7 @@ const Projects = () => {
         {
             "image":img5,
             "name": "PSD to HTML",
-            "live": "https://solaymanweb.github.io/lucky-one/",
+            "live": "https://nike-react-ecommerce-web-site.netlify.app/",
             "discription": "Walton refrigerator & freezer will make a vivid distinction in your kitchen",
         },
         {
@@ -54,8 +54,8 @@ const Projects = () => {
 
 
     return (
-        <section className='py-5 ' id='myProject'>
-            <h2 className='fw-bold pt-5'>My <span className='text-orangered'>Project</span></h2>
+        <section className='py-5 project-section' id='myProject'>
+            <h2  data-aos="fade-right" className='fw-bold pt-5'>My <span className='text-orangered'>Project</span></h2>
             <div>
 
                 <Container className='pt-5'>
@@ -64,7 +64,7 @@ const Projects = () => {
                             allDemoSite.map(site => <>
                             
                                 <Col md={4} className=''>
-                                    <div className='card-container'>
+                                    <div data-aos="zoom-in-right" className='card-container'>
                                         <Card>
                                             <div className='projects-container'>
                                                 <Card.Img variant="top" src={site.image} />

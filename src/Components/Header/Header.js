@@ -18,7 +18,7 @@ const Header = () => {
         <Nav className="ms-auto right-li my-2 my-lg-0" style={{ maxHeight: '100px' }}navbarScroll>
         <Link to='/'>Home</Link>
         <a href="#aboutMe">About Me</a>
-        <Link to='/'>Resume</Link>
+        <a href="https://drive.google.com/file/d/1czQjS-NoQuDB1PfPAABizbiuKNfUOS3b/view?usp=sharing" target='_blank'>Resume</a>
         <a href='#myProject'>My Project</a>
         <a href='#contactMe'>Contact Me</a>
       </Nav>

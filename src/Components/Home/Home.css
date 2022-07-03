@@ -1,9 +1,9 @@
 
-/* .all-component-wraper{
-    
-} */
-.header-and-banner{
-    background-image: url('../../Assest/background2.jpg');
+ .header-and-banner{
+     /* background-image: url('../../Assest/background2.jpg');  */
     background-size: cover;
-    background-repeat: no-repeat;
-}
+    background-repeat: no-repeat; 
+
+    background: linear-gradient(107.07deg,#684efb -6.64%,#5a00dd 89.11%);
+   
+} 
