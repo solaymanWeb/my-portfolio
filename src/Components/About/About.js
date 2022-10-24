@@ -61,7 +61,7 @@ const About = () => {
                     <Col md={6}>
                         <div data-aos="zoom-in" className='my-self-container '>
                         <div className='my-self'>
-                        <p className='fs-5 text-start '>I am a Front-end web Developer. I am working as a Web Developer since 2019. I have experience with some projects for web design and development. I can provide clean code and pixel-perfect Design. I work with HTML5, CSS3, Bootstrap, Tailwind,  React, Node.js, Express.js, MongoDB, and Responsive Design.</p>
+                        <p className='fs-5 text-start '>I am a Front-end web Developer. I am working as a Web Developer since 2020. I have experience with some projects for web design and development. I can provide clean code and pixel-perfect Design. I work with HTML5, CSS3, Bootstrap, Tailwind,  React, Node.js, Express.js, MongoDB, and Responsive Design.</p>
                         </div>
                         </div>
                     </Col>

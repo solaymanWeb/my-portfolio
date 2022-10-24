@@ -3,7 +3,7 @@ import { Col, Container, Button, Row } from 'react-bootstrap';
 import { FaFacebook, FaGithub, FaLinkedin} from "react-icons/fa";
 import './Banner.css';
 import Typical from 'react-typical';
-import profile from '../../Assest/profile.png';
+import profile from '../../Assest/profile.jpg';
 import resume from "../../Assest/solayman_resume.pdf";
 import traiangle from "../../Assest/triangle-01.png";
 import circleShap from "../../Assest/circle-01.png";

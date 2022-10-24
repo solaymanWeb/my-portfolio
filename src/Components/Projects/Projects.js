@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import img1 from '../../Assest/p-1.png'
 import img2 from '../../Assest/p-2.png'
@@ -7,6 +8,9 @@ import img3 from '../../Assest/p-3.png'
 import img4 from '../../Assest/p-4.png'
 import img5 from '../../Assest/p-5.png'
 import img6 from '../../Assest/p-6.png'
+import img7 from '../../Assest/p-7.png'
+import img8 from '../../Assest/p-8.png'
+import img9 from '../../Assest/p-9.png'
 import './Projects.css';
 
 const Projects = () => {
@@ -14,42 +18,59 @@ const Projects = () => {
     const allDemoSite = [
         {
             "image": img1,
-            "name": "PSD to HTML.....",
-            "technology":"",
+            "name": "Figma to HTML....",
+            "technology":"HTML, CSS, Bootstrap, Jquery, media query",
             "live": "https://solaymanweb.github.io/themezone/",
-            "discription": "When you have Walton refrigerator & freezer in your home",
         },
         {
             "image": img2,
-            "name": "Managemet web site with ReactJS, nodeJS",
+            "name": "E-commerce whole sell website",
+            "technology":"HTML, CSS, Tailwind CSS, React.js, Firebase, Node.js, Express.js, MongoDB etc",
             "live":"https://electric-tools.netlify.app/",
-            "discription": "you are safe from going to market every day that keeps",
+        },
+        {
+            "image": img9,
+            "name": "Book and online course selling site",
+            "technology":"HTML, CSS, Tailwind CSS, React.js, Redux, Firebase, socket.io Node.js, Express.js, MongoDB etc",
+            "live":"https://pathagar-7e2af.firebaseapp.com/",
         },
         {
             "image": img3,
-            "name": "Manufectural web site with ReactJS, nodeJS",
+            "name": "Management web site",
+            "technology":"HTML, CSS, Tailwind CSS, React.js, Firebase, Node.js, Express.js, MongoDB etc",
             "live":"https://fridge-store-house.netlify.app/",
-            "discription": "you free from extra burden. You can keep all your foods and stuffs",
-        },
-        {
-            "image": img4,
-            "name": "Figma to HTML ",
-            "live": "https://solaymanweb.github.io/Figma-to-html/",
-            "discription": "Our energy-saving, stylish, equipped with 100%",
-        },
-        {
-            "image":img5,
-            "name": "PSD to HTML",
-            "live": "https://nike-react-ecommerce-web-site.netlify.app/",
-            "discription": "Walton refrigerator & freezer will make a vivid distinction in your kitchen",
         },
         {
             "image": img6,
             "name": "PSD to HTML___",
+            "technology":"HTML, CSS, Bootstrap, CSS animation, Jquery",
             "live":"https://solaymanweb.github.io/PSD-to-HTML/",
-            "discription": "WFA-2A3-GDXX-XX ",
+        },
+        {
+            "image": img8,
+            "name": "E-commerce page Design",
+            "technology":"HTML, CSS, Bootstrap, Jquery",
+            "live":"https://solaymanweb.github.io/XD-to-HTML/",
+        },
+        {
+            "image": img4,
+            "name": "Figma to HTML ",
+            "technology":"HTML, CSS, Bootstrap, Jquery",
+            "live": "https://solaymanweb.github.io/Figma-to-html/",
+        },
+        {
+            "image":img5,
+            "name": "Figma to HTML",
+            "technology":"HTML, Valina CSS using Flexbox",
+            "live": "https://nike-react-ecommerce-web-site.netlify.app/",
+        },
+        {
+            "image": img7,
+            "name": "Udemy course page Design",
+            "technology":"HTML, CSS, Bootstrap, responsive",
+            "live":"https://solaymanweb.github.io/udemy/",
 
-        }
+        },
     ]
 
 
@@ -72,7 +93,7 @@ const Projects = () => {
                                             <Card.Body className='card-details'>
                                                 <Card.Title> {site.name}</Card.Title>
                                                 <Card.Text>
-                                                    {site.technology}
+                                                   <h6> {site.technology}</h6>
                                                 </Card.Text>
                                                 <div className='d-flex'>
                                <a href={site.live} target="_blank" rel="noopener noreferrer"> <Button className="button-87 live-btn" role="button">view live site</Button></a>
@@ -85,6 +106,8 @@ const Projects = () => {
                                 </Col>
                             </>)
                         }
+                        {/* <Link to="/allproject">More Project</Link> */}
+                        <Link to='/allproject'><button className="btn btn-primary">see more project</button></Link>
                     </Row>
                 </Container>
 

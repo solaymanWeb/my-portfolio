@@ -1,0 +1,66 @@
+
+
+
+[
+    {
+        "image":"https://i.ibb.co/7tGqDpt/p-1.png",
+        "name": "Figma to HTML....",
+        "technology":"HTML, CSS, Bootstrap, Jquery, media query",
+        "live": "https://solaymanweb.github.io/themezone/"
+    },
+    {
+        "image":"https://i.ibb.co/pj4qXx2/p-2.png",
+        "name": "E-commerce whole sell website",
+        "technology":"HTML, CSS, Tailwind CSS, React.js, Firebase, Node.js, Express.js, MongoDB etc",
+        "live":"https://electric-tools.netlify.app/"
+    },
+    {
+        "image":"https://i.ibb.co/BZSCR8R/p-9.png",
+        "name": "Book and online course selling site",
+        "technology":"HTML, CSS, Tailwind CSS, React.js, Redux, Firebase, socket.io Node.js, Express.js, MongoDB etc",
+        "live":"https://pathagar-7e2af.firebaseapp.com/"
+    },
+    {
+        "image":"https://i.ibb.co/d6zp58w/p-3.png",
+        "name": "Management web site",
+        "technology":"HTML, CSS, Tailwind CSS, React.js, Firebase, Node.js, Express.js, MongoDB etc",
+        "live":"https://fridge-store-house.netlify.app/"
+    },
+    {
+        "image":"https://i.ibb.co/Fn4zC8b/p-6.png",
+        "name": "PSD to HTML___",
+        "technology":"HTML, CSS, Bootstrap, CSS animation, Jquery",
+        "live":"https://solaymanweb.github.io/PSD-to-HTML/"
+    },
+    {
+        "image":"https://i.ibb.co/vQQJjN1/p-8.png",
+        "name": "E-commerce page Design",
+        "technology":"HTML, CSS, Bootstrap, Jquery",
+        "live":"https://solaymanweb.github.io/XD-to-HTML/"
+    },
+    {
+        "image":"https://i.ibb.co/tQKQfKP/p-4.png",
+        "name": "Figma to HTML ",
+        "technology":"HTML, CSS, Bootstrap, Jquery",
+        "live": "https://solaymanweb.github.io/Figma-to-html/"
+    },
+    {
+        "image":"https://i.ibb.co/1scFmF2/p-5.png ",
+        "name": "Figma to HTML",
+        "technology":"HTML, Valina CSS using Flexbox",
+        "live": "https://nike-react-ecommerce-web-site.netlify.app/"
+    },
+    {
+        "image":"https://i.ibb.co/8x9L7fT/p-7.png ",
+        "name": "Udemy course page Design",
+        "technology":"HTML, CSS, Bootstrap, responsive",
+        "live":"https://solaymanweb.github.io/udemy/"
+    },
+    {
+        "image":"https://i.ibb.co/dWj3G2w/screenshot-solaymanweb-github-io-2022-10-18-21-53-03.png",
+        "name": "Figma to HTML",
+        "technology":"HTML, Valina CSS using Flexbox",
+        "live": "https://solaymanweb.github.io/creative-fast-project/"
+
+    }
+]
